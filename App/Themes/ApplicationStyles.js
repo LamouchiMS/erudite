@@ -2,8 +2,8 @@ import Fonts from './Fonts'
 import Metrics from './Metrics'
 import Colors from './Colors'
 
-// This file is for a reusable grouping of Theme items.
-// Similar to an XML fragment layout in Android
+// This file is for a reusable grouping of Theme items. Similar to an XML
+// fragment layout in Android
 
 const ApplicationStyles = {
   screen: {
@@ -74,6 +74,24 @@ const ApplicationStyles = {
     borderColor: Colors.ember,
     alignItems: 'center',
     textAlign: 'center'
+  },
+  h1: {
+    ...Fonts.style.h1,
+    color: '#2196F3',
+    textAlign: 'center'
+  },
+  h5: {
+    ...Fonts.style.h5,
+    color: '#2196F3',
+    textAlign: 'center'
+  },
+  normal: {
+    ...Fonts.style.normal,
+    color: '#2196F3'
+  },
+  btnText: {
+    ...Fonts.style.description,
+    color: 'white'
   }
 }
 

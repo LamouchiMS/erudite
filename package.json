@@ -1,5 +1,5 @@
 {
-  "name": "Erudite",
+  "name": "erudite",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -25,6 +25,7 @@
   },
   "dependencies": {
     "apisauce": "^0.14.0",
+    "faker": "^4.1.0",
     "format-json": "^1.0.3",
     "lodash": "^4.17.2",
     "prop-types": "^15.5.10",
@@ -99,6 +100,11 @@
       "XMLHttpRequest",
       "FormData",
       "React$Element"
+    ]
+  },
+  "rnpm": {
+    "assets": [
+      "./assets/fonts"
     ]
   }
 }
